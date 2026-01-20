@@ -14,91 +14,140 @@
             <h3 class="text-4xl text-white font-bold">Tach <span class="bg-gradient-to-t from-[#9100F8] via-[#FB09B4] to-[#F7E93F] bg-clip-text text-transparent  ">
   wave
 </span></h3>
-            <ul class="lg:flex gap-8 text-white" >
-                <li class="hover:scale-150 
+  <img  
+            class=" 
+            absolute top-7 right-5
+             lg:top-30 lg:right-15 z-10
+            w-[24px] h-[24px] flex md:hidden lg:hidden"
+             src="./assets/List.png" alt="">
+  <ul class="
+ flex gap-8 text-white" >
+                <div class="flex items-center gap-8 mr-170 text-white">
+                    <li class=" 
+                    hidden
+                    md:flex
+                    lg:flex
+                    hover:scale-150 
                 hover:shadow-[0_20px_40px_rgba(145,0,248,0.3)]
                  cursor-pointer
                 hover:text-yellow-600
                 hover:font-extrabold transition-transfrom duration-500"><a href="">About</a></li>
-                <li  class="cursor-pointer hover:scale-150 
+                <li  class="
+                 hidden
+                    md:flex
+                    lg:flex
+                cursor-pointer hover:scale-150 
                 hover:shadow-[0_20px_40px_rgba(145,0,248,0.3)]
                 hover:text-yellow-600
                 hover:font-extrabold transition-transfrom duration-500"><a href="">Episodes</a></li>
                 <li  class=" 
                 cursor-pointer    
-                
+                 hidden
+                    md:flex
+                    lg:flex
                 hover:scale-150  
                 hover:shadow-[0_20px_40px_rgba(145,0,248,0.3)]
                 hover:text-yellow-600
                 hover:font-extrabold transition-transfrom duration-500"><a href="">Host</a></li>
-            </ul>
+                </div>
+             
             <button class=" cursor-pointer 
             hover:px-15 
+             hidden
+                    md:flex
+                    lg:flex
              hover:font-extrabold transition-transfrom duration-700
                hover:shadow-[0_20px_40px_rgba(145,0,248,0.3)]
              flex rounded-full bg-gradient-to-br from-[#9100F8] via-[#FB09B4] to-[#F7E93F] py-2 px-4 text-white">Subscribe <img src="./assets/ArrowRight.png" alt=""></button>
+           
+                </ul>
+                
+               
         </nav>
     </header>
     <main>
-<section class="bg-[url('./assets/hero-bg.png')] bg-cover bg-no-repeat sm:w-[440px] lg:w-[100%]
- sm:h-[466px] lg:h-[760px]  items-center  ">
-   <div class=" flex justify-center   ">
-    <div class="relative ">
-        <!--  -->
-        <div class="absolute top-20 right-10 p-6">
-            <span class="bg-[#00F59B] text-black  font-bold px-3 py-1 rounded-full shadow-md shadow-green-600 text-2xl ">
-                NEW
-            </span>
+<section class="bg-[url('./assets/hero-bg.png')] bg-cover bg-center bg-no-repeat w-full min-h-[466px] lg:min-h-[760px] flex flex-col items-center">
+    
+    <div class="flex justify-center w-full">
+        <div class="relative">
+            <div class="absolute top-30 right-2
+             lg:top-30 lg:right-15 z-10">
+                <span class="bg-[#00F59B] text-black font-bold px-3 py-1 rounded-full shadow-md shadow-green-600 text-sm lg:text-2xl">
+                    NEW
+                </span>
+            </div>
+
+            <div class="
+           
+            mt-[100px]
+             lg:mt-[90px] bg-[url('./assets/hero-circle.png')] bg-cover bg-no-repeat 
+                        w-[300px] 
+                        h-[300px] 
+                        lg:w-[540px] lg:h-[540px] 
+                        flex justify-center items-center">
+                <img class="w-[47px] h-[70px] lg:w-[117px] lg:h-[175px] object-contain" 
+                     src="./assets/microphone.png" alt="microphone">
+            </div>
         </div>
-    <div class=" mt-[90px] bg-[url('./assets/hero-circle.png')] bg-cover bg-no-repeat 
-     sm:h-[200spx] lg:h-[440px] 
-    sm:w-[200px] lg:w-[440px] flex justify-center items-center">
-        <img class="
-        sm:w-[47px] lg:w-[117px]
-        sm:h-[70px] lg:h-[175px]
-        " src="./assets/microphone.png" alt="">
+    </div>
+
+    <div class="text-center mx-auto px-6 py-10 max-w-4xl">
+        <h1 class="text-white text-5xl lg:text-7xl font-extrabold transition-all duration-700 
+                   hover:tracking-[5px] lg:hover:tracking-[15px]">
+            TechWave
+        </h1>
         
- </div>
-   
-   </div>
-   </div>
-   <div class="text-center mx-auto p-10">
-     <h1 class=" 
-     hover:tracking-[15px]
-     hover:text-[80px]
-     transition-transfrom duration-700
-     
-     hover:font-extrabold
-     text-white text-7xl font-extrabold">TechWave</h1>
-        <p class=" my-3 text-gray-400">Your daily dose of tech insights, productivity hacks, and personal growth</p>
-        <div class="flex justify-center mx-auto gap-2">
-            <button class=" 
-             cursor-pointer 
-            hover:px-15 
-             hover:font-extrabold transition-transfrom duration-700
-               hover:shadow-[0_20px_40px_rgba(145,0,248,0.3)]
-            flex justify-center items-center rounded-full bg-gradient-to-br from-[#9100F8] via-[#FB09B4] to-[#F7E93F] py-2 px-4 text-white"><img src="./assets/spotifai.png" alt="a brand shere thair owe music"> Listen on Spotify</button>
-        <button class=" 
-         cursor-pointer 
-            hover:px-15 
-             hover:font-extrabold transition-transfrom duration-700
-               hover:shadow-[0_20px_40px_rgba(145,0,248,0.3)]
-        gap-2 last:flex justify-center items-center rounded-full py-2 px-4 bg-transparent text-green-500 border-2 border-green-500"><img src="assets/email.png" alt="their email">Subscribe</button>
+        <p class="my-6 text-gray-400 max-w-md mx-auto">
+            Your daily dose of tech insights, productivity hacks, and personal growth.
+        </p>
+
+        <div class="flex flex-col sm:flex-row justify-center items-center gap-4">
+            <button class="w-full sm:w-auto cursor-pointer transition-all duration-500
+                           hover:shadow-[0_10px_30px_rgba(145,0,248,0.5)]
+                           flex justify-center items-center gap-2 rounded-full 
+                           bg-gradient-to-br from-[#9100F8] via-[#FB09B4] to-[#F7E93F] py-3 px-6 text-white">
+                <img src="./assets/spotifai.png" alt="Spotify" class="w-5 h-5"> 
+                Listen on Spotify
+            </button>
+
+            <button class="w-full sm:w-auto cursor-pointer transition-all duration-500
+                           hover:bg-green-500 hover:text-white
+                           flex justify-center items-center gap-2 rounded-full 
+                           py-3 px-6 bg-transparent text-green-500 border-2 border-green-500">
+                <img src="assets/email.png" alt="Email" class="w-5 h-5">
+                Subscribe
+            </button>
         </div>
-   </div>
+    </div>
 </section>
-<section class="p-30 text-center bg-[#1A0B2E] " >
-    <div>
-        <h1 class="font-bold text-6xl text-white">About the Podcast</h1>
+<section class="p-5 text-center bg-[#1A0B2E] " >
+    <div class="
+    w-[full]
+        lg:w-[1200px]
+        grid-cols-1
+        justify-center
+        items-center
+        mx-auto
+        
+        
+    ">
+        <h1 class="font-bold 
+        text-center
+        text-3xl
+        lg:text-6xl  text-white">
+        About the Podcast</h1>
     <p class="text-gray-400 mt-4">TechWave is your go-to podcast for staying 
-         ahead in the fast-paced world of technology. <br>
+         ahead in the fast-paced world of technology. 
 We break down complex topics into digestible insights, explore  productivity strategies that actually work,
-and share stories <br> of personal growth from industry leaders.
+and share stories  of personal growth from industry leaders.
 
 Join thousands of young professionals and tech enthusiasts who start their day with TechWave.</p>
 <p class="text-gray-400 mt-5">Join thousands of young professionals and tech enthusiasts who start their day with TechWave.</p>
     </div>
-    <div class="mt-[170px] grid  sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 justify-between
+    <div class="
+    mt-[80px]
+    md:mt-[130px]
+    lg:mt-[170px] grid  grid-cols-2 md:grid-cols-4 lg:grid-cols-4 justify-between
     max-w-[1200px] border-t-1 border-gray-800 mx-auto pt-10">
         <div class="
          hover:bg-[#2e075d]
@@ -110,7 +159,9 @@ Join thousands of young professionals and tech enthusiasts who start their day w
         transition-transfrom duration-700
         hover:text-[#ba8410]
 
-            text-[#00FF88] font-black text-5xl">150K+</h1>
+            text-[#00FF88] font-black 
+            text-3xl
+            lg:text-5xl">150K+</h1>
             <p class="text-gray-400 mt-4">Monthly Listeners</p>
         </div>
         <div>
@@ -118,7 +169,9 @@ Join thousands of young professionals and tech enthusiasts who start their day w
              hover:text-6xl 
         transition-transfrom duration-700
         hover:text-[#ba8410]
-            text-[#00FF88] font-black text-5xl">200+</h1>
+            text-[#00FF88] font-black
+              text-3xl
+            lg:text-5xl">200+</h1>
             <p class="text-gray-400 mt-4">Episodes Published</p>
         </div>
         <div>
@@ -126,7 +179,9 @@ Join thousands of young professionals and tech enthusiasts who start their day w
              hover:text-6xl 
         transition-transfrom duration-700
         hover:text-[#ba8410] 
-            text-[#00FF88] font-black text-5xl">4.9★</h1>
+            text-[#00FF88] font-black
+              text-3xl
+            lg:text-5xl">4.9★</h1>
             <p class="text-gray-400 mt-4">Average Rating</p>
         </div>
         <div>
@@ -134,21 +189,32 @@ Join thousands of young professionals and tech enthusiasts who start their day w
              hover:text-6xl 
         transition-transfrom duration-700
         hover:text-[#ba8410]
-            text-[#00FF88] font-black text-5xl">50+</h1>
+            text-[#00FF88] font-black 
+             text-3xl
+            lg:text-5xl">50+</h1>
             <p class="text-gray-400 mt-4">Industry Experts</p>
         </div>
     </div>
 </section>
 <section class="bg-[#230E3D]">
-    <h2 class="text-center text-white font-bold text-6xl py-18">Why Choose TechWave</h2>
-    <div class=" max-w-7xl   mx-auto grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-<div class="row-span-2 rounded-3xl py-9 bg-[#351165] px-10 py-25">
+    <h2 class="text-center text-white font-bold 
+    text-3xl
+    md:text-5xl 
+    lg:text-6xl py-18">Why Choose TechWave</h2>
+    <div class=" max-w-7xl   mx-auto grid sm:grid-cols-1 
+    grid-cols-1 lg:grid-cols-3 gap-6">
+<div class="
+w-[full]
+row-span-2 rounded-3xl  bg-[#351165] 
+mx-7
+px-10 py-10 lg:py-25">
     <img src="./assets/headphone.png"
      alt="">
      <h3 class=" text-white font-bold text-2xl">Premium Audio Quality</h3>
      <p class="text-gray-400 mt-4">Experience crystal-clear sound with professional-grade recording equipment and expert audio engineering. Every episode is mastered for optimal listening across all devices and platforms.</p>
 </div>
-<div class="col-span-2  rounded-3xl py-9 bg-[#351165] px-10 py-25 ">
+<div class="col-span-2  rounded-3xl  bg-[#351165] mx-8
+px-10 py-10 lg:py-25">
     <img src="./assets/device.png" alt="phone">
 <h3 class=" text-white font-bold text-2xl">Mobile Friendly</h3>
 <p class="text-gray-400 mt-4">
@@ -156,17 +222,22 @@ Join thousands of young professionals and tech enthusiasts who start their day w
 </p>
 
 </div>
-<div class="col-span-2 rounded-3xl py-9 bg-[#351165] px-10 py-25 ">
+<div class="col-span-2 rounded-3xl  bg-[#351165] mx-8
+px-10 py-10 lg:py-25 ">
     <img src="./assets/location.png" alt="locetion">
     <h3 class=" text-white font-bold text-2xl">Global Community</h3>
     <p class="text-gray-400 mt-4">Connect with tech enthusiasts from over 120 countries worldwide.</p>
 </div>
-<div class="col-span-2 rounded-3xl py-9 bg-[#351165] px-10 py-25 "><img src="./assets/ex.png" alt="">
+<div class="col-span-2 rounded-3xl  bg-[#351165] mx-8
+px-10 py-10 lg:py-25 "><img src="./assets/ex.png" alt="">
 
 <h3 class=" text-white font-bold text-2xl">Exclusive Interviews</h3>
 <p class="text-gray-400 mt-4">Get unprecedented access to industry titans, startup founders, and tech visionaries. Our host secures exclusive conversations you won't find anywhere else, diving deep into their journeys, failures, and success strategies.</p>
 </div>
-<div class="px-10 py-25 rounded-3xl py-9 bg-[#351165]">
+<div class="mx-8
+px-10 py-10 lg:py-25
+ rounded-3xl 
+bg-[#351165]">
     <img src="./assets/resource.png" alt="">
     <h3 class=" text-white font-bold text-2xl">Rich Resources</h3>
     <p class="text-gray-400 mt-4">Access show notes, transcripts, and additional learning materials for every episode.</p>
@@ -174,9 +245,20 @@ Join thousands of young professionals and tech enthusiasts who start their day w
     </div>
 </section>
 <section class="  bg-[#250D44] items-center text-center" >
-    <h2 class="font-bold text-6xl text-white pt-30">Featured Episodes</h2>
-    <div class="grid lg:grid-cols-3 justify-around  py-30 mx-auto max-w-[1300px] gap-5">
-        <div class=" max-w-[400px]  bg-[#3b1171] aspect-video rounded-3xl  shadow-2xl transition-all duration-700 ease-out hover:rotate-1 hover:-translate-y-4 hover:scale-105 hover:shadow-[#9100F8]/20 ">
+    <h2 class="font-bold 
+    text-4xl
+    md:text-5xl
+    lg:text-6xl
+     text-white pt-30">Featured Episodes</h2>
+    <div class="grid 
+    
+    lg:grid-cols-3
+     justify-around  py-30 mx-auto max-w-[1300px] gap-5">
+        <div class=" 
+        w-[300px] 
+        lg:w-[400px] 
+        mx-auto
+        bg-[#3b1171] aspect-video rounded-3xl  shadow-2xl transition-all duration-700 ease-out hover:rotate-1 hover:-translate-y-4 hover:scale-105 hover:shadow-[#9100F8]/20 ">
             <iframe class=" rounded-3xl w-full h-full " src="https://www.youtube.com/embed/u5PPzR9ourg?autoplay=1&mute=1&loop=1&playlist=u5PPzR9ourg&controls=0&modestbranding=1"
              frameborder="0" 
              title="our sound desinging"
@@ -188,7 +270,10 @@ Join thousands of young professionals and tech enthusiasts who start their day w
 
         </div>
     
-        <div class=" max-w-[400px]  bg-[#3b1171] aspect-video rounded-3xl  shadow-2xl transition-all duration-700 ease-out hover:rotate-1 hover:-translate-y-4 hover:scale-105 hover:shadow-[#9100F8]/20 ">
+        <div class="  w-[300px] 
+        lg:w-[400px] 
+        mx-auto 
+        bg-[#3b1171] aspect-video rounded-3xl  shadow-2xl transition-all duration-700 ease-out hover:rotate-1 hover:-translate-y-4 hover:scale-105 hover:shadow-[#9100F8]/20 ">
             <iframe class=" rounded-3xl w-full h-full " src="https://www.youtube.com/embed/rRJa-i3Z58k?autoplay=1&mute=1&loop=1&playlist=rRJa-i3Z58k&controls=0&modestbranding=1"
              frameborder="0"
              title="our sound desinging"
@@ -200,7 +285,11 @@ Join thousands of young professionals and tech enthusiasts who start their day w
 
         </div>
     
-        <div class=" max-w-[400px]  bg-[#3b1171] aspect-video rounded-3xl  shadow-2xl transition-all duration-700 ease-out hover:rotate-1 hover:-translate-y-4 hover:scale-105 hover:shadow-[#9100F8]/20 ">
+        <div class=" 
+          w-[300px] 
+        lg:w-[400px] 
+        mx-auto
+        bg-[#3b1171] aspect-video rounded-3xl  shadow-2xl transition-all duration-700 ease-out hover:rotate-1 hover:-translate-y-4 hover:scale-105 hover:shadow-[#9100F8]/20 ">
             <iframe class=" rounded-3xl w-full h-full " src="https://www.youtube.com/embed/lq-sWRnYWKQ?autoplay=1&mute=1&loop=1&playlist=lq-sWRnYWKQ&controls=1&modestbranding=1"
              frameborder="0"
              title="our sound desinging"
@@ -256,7 +345,11 @@ bg-cover bg-center bg-no-repeat  items-center">
         <h1 class="text-7xl text-white font-bold">Tach <span class="bg-gradient-to-t from-[#9100F8] via-[#FB09B4] to-[#F7E93F] bg-clip-text text-transparent  ">
   wave
 </span></h1>
-<div class="grid grid-cols-4 py-11 mx-auto 
+<div class="grid 
+grid-cols-2
+md:grid-cols-4
+lg:grid-cols-4
+py-11 mx-auto 
 max-w-[544px] gap-9">
 <div class="flex justify-center gap-5">
     <img class="max-w-[20px] max-h-[20px] " src="./assets/spotify.png" alt="">
@@ -266,10 +359,11 @@ max-w-[544px] gap-9">
 <div class="flex justify-center gap-5 w-[152px]"><img  class="max-w-[20px] max-h-[20px] " src="./assets/apple-podcast.png" alt="">
  <h5  class="text-center text-white">Apple podcast</h5>
 </div>
-<div class="flex justify-center gap-3"><img class="max-w-[20px] max-h-[20px] " src="./assets/youtube.png" alt="">
+<div class="flex justify-center gap-3"><img class="max-w-[20px] max-h-[20px] " 
+    src="./assets/mingcute_youtube-fill.png" alt="">
  <h5  class="text-center text-white">Youtube</h5>
 </div>
-<div  class="flex justify-center gap-5"><img class="max-w-[20px] max-h-[20px] " src="./assets/twitter.png" alt="">
+<div  class="flex justify-center gap-3"><img class="max-w-[20px] max-h-[20px] " src="./assets/twitter.png" alt="">
 <h5  class="text-center text-white">Twitter </h5>
 </div>
 </div>
